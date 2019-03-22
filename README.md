@@ -1,12 +1,14 @@
 # REST-Messenger
 
 Message REST
+
+------------------------------------------------------------------------------------------------------------------------------------------
 3 entities: Dialog, Users and Message
 Relationships 
 Dialog *-* Users /Dialog 1-* Message/Users *-* Dialog/Users 1-* Message
 Description:
 This REST Webservice and client allow you to send messages between users in dialogs.
-------------------------------------------------------------------------------------------------------------------------------------------
+
 Create new user using POST http://localhost:8080/Message/rest/users
 {“firstName”:”…”,”lastName”:”…”,”age”:”…”}
  
